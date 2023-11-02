@@ -1,4 +1,6 @@
 
+/* generali */
+
 *{
     margin: 0%;
     padding: 0;
@@ -7,9 +9,18 @@
 }
 
 img{
-    width:100%;
+    width: 100%;
     display: block;
 }
+
+.red {
+    color: red;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
 
 /* header */
 
@@ -39,5 +50,61 @@ img{
     font-size: 20px;
 }
 
+/* main */
+
+main {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.container{
+    margin-top: 50px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.colonna{
+    width: calc(100% / 3 - 20px);
+    position: relative;
+}
+
+.cuore {
+    background-color: white;
+    color: #000;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+
+}
+
+.sconto{
+    padding: 5px 10px;
+    background-color: crimson;
+    color: #ffffff;
+    position: absolute;
+    bottom: 80px;
+}
+
+.disponibilità{
+    padding: 5px 10px;
+    background-color: rgb(20, 133, 29);
+    color: #ffffff;
+    position: absolute;
+    bottom: 80px;
+    left: 60px;
+
+}
+
+/* main hover*/
+
+.hover {
+    display: none;
+}
 
 
